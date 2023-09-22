@@ -4,6 +4,7 @@ import photo from './assets/photo-grid.png'
 
 export default function Navbar(){
 
+  //dsd
     return (
       <>
 
@@ -15,6 +16,7 @@ export default function Navbar(){
   
     </div>
     <div className="text">
+     
     <h1>Online Experiences</h1>
     <p>Join unique interactive activities led by 
     </p> 
