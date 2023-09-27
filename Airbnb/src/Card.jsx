@@ -8,6 +8,8 @@ export default function Card(){
 <img src={Katie} alt="girl" />
 <div className="info">
 <img src={Star} alt="star"/>
+<img src={Katie} alt="asdasd"/>
+
 <div>
     </div>
  <p>(6)</p>
