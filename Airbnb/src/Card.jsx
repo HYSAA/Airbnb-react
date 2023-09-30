@@ -12,8 +12,12 @@ export default function Card() {
           <p>Life lessons with Katie Zafares</p>
           <p>This is the first paragraph.</p>
           <p>This is the second paragraph, and it will appear below the first one.</p>
+                
+         
         </div>
+
       </div>
+      <p>Tes div</p>
     </>
     )
 
