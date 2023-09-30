@@ -1,5 +1,5 @@
 import './App.css'
-import Card from './card'
+import Card from './Card'
 import Navbar from './Navbar'
 
 

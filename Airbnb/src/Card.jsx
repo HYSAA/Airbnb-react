@@ -4,20 +4,17 @@ import Star from './assets/star.png'
 export default function Card() {
     return (
         <>
-            <div className="pics">
-                <img src={Katie} alt="girl" />
-                <div className="info">
-                    <img src={Star} alt="star" />
-             
-                    <div>
-                        <div>
-                        </div>
-                    </div>
-                    <p>5.0</p>
-                    <p>(6)</p>
-                </div>
-            </div>
-        </>
+      <div className="pics">
+        <img src={Katie} alt="girl" />
+        <div className="info">
+          <img src={Star} alt="star" />
+          <p>5.0 (6). USA</p>
+          <p>Life lessons with Katie Zafares</p>
+          <p>This is the first paragraph.</p>
+          <p>This is the second paragraph, and it will appear below the first one.</p>
+        </div>
+      </div>
+    </>
     )
 
 }
