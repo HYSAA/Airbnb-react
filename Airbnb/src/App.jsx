@@ -1,7 +1,7 @@
 import './App.css'
 import Card from './Card'
 import Navbar from './Navbar'
-
+import Date from './Date'
 
 function App() {
   
@@ -9,6 +9,7 @@ function App() {
     <>
      <Navbar></Navbar>
      <Card></Card>
+     {/* <Date></Date> */}
     </>
   )
 }
