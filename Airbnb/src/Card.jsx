@@ -2,8 +2,8 @@ import React from "react";
 import Katie from './assets/girl.png'
 import Star from './assets/star.png'
 export default function Card() {
-    return (
-        <>
+  return (
+    <>
       <div className="pics">
         <img src={Katie} alt="girl" />
         <div className="info">
@@ -12,13 +12,13 @@ export default function Card() {
           <p>Life lessons with Katie Zafares</p>
           <p>This is the first paragraph.</p>
           <p>This is the second paragraph, and it will appear below the first one.</p>
-                
-         
+
+          <p>asdasd</p>
         </div>
 
       </div>
       <p>Tes div</p>
     </>
-    )
+  )
 
 }
