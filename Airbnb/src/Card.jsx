@@ -7,17 +7,12 @@ export default function Card() {
       <div className="pics">
         <img src={Katie} alt="girl" />
         <div className="info">
-          <img src={Star} alt="star" />
+          <img src={Star} alt="star" className="stars" />
           <p>5.0 (6). USA</p>
-          <p>Life lessons with Katie Zafares</p>
-          <p>This is the first paragraph.</p>
-          <p>This is the second paragraph, and it will appear below the first one.</p>
-
-          <p>asdasd</p>
         </div>
-
+        <p className="other">Life lessons with Katie Zafares</p>
       </div>
-      <p>Tes div</p>
+     
     </>
   )
 

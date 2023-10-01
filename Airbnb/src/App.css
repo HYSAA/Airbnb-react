@@ -38,3 +38,13 @@ justify-content: center;
 .info > img{
  padding: 5px;
 }
+.other{
+  padding-top: -20px;
+  margin-bottom: 10px;
+  display: flex;
+  padding-left: 20%; 
+  border: 10px;
+}
+.pics--stars{
+height: 10px;
+}
