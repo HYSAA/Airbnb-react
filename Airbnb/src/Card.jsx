@@ -1,16 +1,20 @@
 import React from "react";
-import Katie from './assets/girl.png'
 import Star from './assets/star.png'
-export default function Card() {
+export default function Card(props) {
   return (
     <>
       <div className="pics">
-        <img src={Katie} alt="girl" />
+        <img src={props.img} alt="img" />
         <div className="info">
           <img src={Star} alt="star" className="stars" />
-          <p>5.0 (6). USA</p>
+          <span>{props.rating}</span>
+          <span>{props.reviewCount}</span>
+          <span>{props.country}</span>
         </div>
-        <p className="other">Life lessons with Katie Zafares</p>
+        <div className="other">
+        <p>{props.title}</p> 
+        <p>{props.price}</p>
+        </div>
       </div>
      
     </>
