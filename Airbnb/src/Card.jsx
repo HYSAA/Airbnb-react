@@ -13,6 +13,8 @@ export default function Card(props) {
         </div>
         <div className="other">
         <p>{props.title}</p> 
+        </div>
+        <div className="others">
         <p>{props.price}</p>
         </div>
       </div>

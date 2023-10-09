@@ -26,9 +26,16 @@ Challenge: Pass props to the Card component and display that data
      reviewCount= {6}
      country="Japan"
      title= "Life Lesson with Katie Zaferes"
-     price = {136}
+     price = {"From $136 / person"}
      />
-     {/* <Date></Date> */}
+    <Card 
+      img={Katie}   
+      rating = "5.0"
+      reviewCount= {6}
+      country="Japan"
+      title= "Life Lesson with Katie Zaferes"
+      price = {"From $136 / person"}
+    />
     </>
   )
 }

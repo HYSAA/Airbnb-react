@@ -48,3 +48,10 @@ justify-content: center;
 .pics--stars{
 height: 10px;
 }
+.others{
+  
+  margin-bottom: 10px;
+  display: flex;
+  padding-left: 20%; 
+  border: 10px;
+}
