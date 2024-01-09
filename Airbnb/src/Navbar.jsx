@@ -4,7 +4,7 @@ import photo from './assets/photo-grid.png'
 
 export default function Navbar(){
 
-  //dsd
+
     return (
       <>
 
