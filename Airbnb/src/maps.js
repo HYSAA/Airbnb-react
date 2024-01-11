@@ -49,3 +49,67 @@ const newa = pokemon.map((mon) =>{
 })
 
 console.log(newa)
+
+
+
+
+
+
+let exam= [1,2,3]
+
+
+const exam2= exam.map((pass =>{
+//  console.log( pass);
+  return  `<h1>${pass}</h1>`;
+}))
+
+
+
+//Given an array of numbers, create a new array where each element is twice the value of the corresponding element in the original array.
+
+Example:
+
+
+const numbers = [2, 4, 6, 8];
+// Your code here
+// Result: [4, 8, 12, 16]
+
+
+const func = () =>{
+
+
+
+const num= numbers.map((store  =>{
+  
+ return store *2;
+
+
+
+}))
+console.log(num)
+}
+
+func()
+
+
+// Problem: Square the Numbers
+// Given an array of numbers, create a new array where each element is the square of the corresponding element in the original array.
+
+// Example:
+
+// javascript
+// Copy code
+const numbersss = [3, 5, 7];
+// Your code here
+// Result: [9, 25, 49]
+
+
+const testt2=()=>{
+
+const test2= numbersss.map((real =>{
+return Math.sqrt(real);
+
+}))
+
+console.log(test2);
+}
