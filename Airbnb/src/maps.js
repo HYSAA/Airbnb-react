@@ -36,9 +36,16 @@ E.g. given: ["Bulbasaur", "Charmander", "Squirtle"]
 return: ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
 */
 
-const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
 
 const monster=pokemon.map((mon) => `<p> ${mon}</p>`)
 // -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
 // Your code here
 console.log(monster)
+
+const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+
+const newa = pokemon.map((mon) =>{
+  return `<p>${mon}</p>`
+})
+
+console.log(newa)

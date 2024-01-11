@@ -11,9 +11,10 @@ function App() {
     <>
      <Navbar></Navbar>
      <Card
+     className="custom-card"
      img={Katie}   
      rating = "5.0"
-     reviewCount= {6}
+     reviewCount= {8}
      country="Japan"
      title= "Life Lesson with Katie Zaferes"
      price = {"From $136 / person"}
