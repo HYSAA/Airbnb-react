@@ -1,15 +1,16 @@
-const numbersss = [3, 5, 7];
+const temperaturesFahrenheit = [32, 68, 104, 212];
+
 // Your code here
-// Result: [9, 25, 49]
+
+const temp= () =>{
+
+  const temperaturesCelsius = temperaturesFahrenheit.map((bin=>{
+   
+   return (bin - 32) * (5/9)
 
 
-const testt2=()=>{
+  }))
 
-const test2= numbersss.map((real =>{
-return (real * real)
-
-}))
-
-console.log(test2);
+console.log(temperaturesCelsius); // Output: [0, 20, 40, 100]
 }
-testt2();
+temp()
