@@ -1,16 +1,12 @@
-const temperaturesFahrenheit = [32, 68, 104, 212];
+const numbers = [123, 456, 789, 987];
 
-// Your code here
+const example = () =>{
 
-const temp= () =>{
+let lastDigits = numbers.map((bin=>{
 
-  const temperaturesCelsius = temperaturesFahrenheit.map((bin=>{
-   
-   return (bin - 32) * (5/9)
-
-
-  }))
-
-console.log(temperaturesCelsius); // Output: [0, 20, 40, 100]
+return (bin % 10)   
+})) 
+console.log(lastDigits); // Output: [3, 6, 9, 7]
 }
-temp()
+example();
+

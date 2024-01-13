@@ -159,19 +159,52 @@
 // }
 // word();
 
-const temperaturesFahrenheit = [32, 68, 104, 212];
+// const temperaturesFahrenheit = [32, 68, 104, 212];
+
+// // Your code here
+
+// const temp= () =>{
+
+//   const temperaturesCelsius = temperaturesFahrenheit.map((bin=>{
+//    return (bin - 32) * (5/9)
+//   }))
+
+// console.log(temperaturesCelsius); // Output: [0, 20, 40, 100]
+// }
+// temp()
+
+
+// const words = ["apple", "banana", "orange", "grape"];
+
+// // Your code here
+// words.match(aeiou)
+
+// console.log(words)
+
+// console.log(vowelsOnly); // Output: ["ae", "aa", "oae", "ae"]
+
+
+
+
+
+const numbers = [123, 456, 789, 987];
 
 // Your code here
 
-const temp= () =>{
+const example = () =>{
 
-  const temperaturesCelsius = temperaturesFahrenheit.map((bin=>{
-   
-   return (bin - 32) * (5/9)
+let lastDigits = numbers.map((bin=>{
+
+return num % 10   
+
+})) 
 
 
-  }))
 
-console.log(temperaturesCelsius); // Output: [0, 20, 40, 100]
+
+console.log(lastDigits); // Output: [3, 6, 9, 7]
+
 }
-temp()
+example();
+
+
