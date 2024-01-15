@@ -1,12 +1,12 @@
-const numbers = [123, 456, 789, 987];
+const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+// -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+// Your code here
 
-const example = () =>{
 
-let lastDigits = numbers.map((bin=>{
+const neww= pokemon.map((nu =>{
 
-return (bin % 10)   
-})) 
-console.log(lastDigits); // Output: [3, 6, 9, 7]
-}
-example();
+    return `<p> ${nu} </p>`
 
+}))
+
+console.log(neww)
