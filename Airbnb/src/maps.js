@@ -183,28 +183,61 @@
 
 // console.log(vowelsOnly); // Output: ["ae", "aa", "oae", "ae"]
 
-
-
-
-
 const numbers = [123, 456, 789, 987];
-
-// Your code here
 
 const example = () =>{
 
 let lastDigits = numbers.map((bin=>{
 
-return num % 10   
-
+return (bin % 10)   
 })) 
-
-
-
-
 console.log(lastDigits); // Output: [3, 6, 9, 7]
-
 }
 example();
 
+
+
+
+
+
+
+
+
+/*
+Challenge 3:
+Given an array of strings, return an array of strings that wraps each
+of the original strings in an HTML-like <p></p> tag.
+
+E.g. given: ["Bulbasaur", "Charmander", "Squirtle"]
+return: ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+*/
+
+const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+// -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+// Your code here
+
+
+const neww= pokemon.map((nu =>{
+
+    return `<p> ${nu} </p>`
+
+}))
+
+console.log(neww)
+
+
+//
+const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"];
+let array = [...colors];
+console.log(array);
+
+// Check if 'array' is an array
+const isArray = Array.isArray(array);
+
+console.log(isArray);
+
+//
+const isArray = Array.isArray(array);
+
+console.log(isArray);
 
