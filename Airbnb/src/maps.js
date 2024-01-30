@@ -237,4 +237,7 @@ const isArray = Array.isArray(array);
 console.log(isArray);
 
 //
+const isArray = Array.isArray(array);
+
+console.log(isArray);
 
