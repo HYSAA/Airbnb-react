@@ -1,19 +1,17 @@
 import './App.css'
-import Card from './Card'
-import Navbar from './Navbar'
-import Date from './Date'
-import Katie from './assets/girl.png'
-import Star from './assets/star.png'
-import data from './data'
-console.log(data)
-
-
+import React from "react"
+import Navbar from "./Navbar"
+// import Hero from "./Hero"
+import Card from "./Card"
+import data from "./data"
+console.log(Navbar)
 
 function App() {
   
   const testData = data.map(item => {
  return (
  <Card
+ key= {item.id}
  className="custom-card"
  img={item.coverImg}   
  rating = {item.stats.rating}
@@ -30,7 +28,7 @@ function App() {
   return (
     <>
     
-  <testData/>
+  {testData}
  
 
     
