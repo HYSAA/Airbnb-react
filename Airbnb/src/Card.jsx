@@ -1,11 +1,13 @@
 import React from "react";
 import Star from './assets/star.png'
+import Girl from './assets/girl.png'
 import data from "./data";
 
 export default function Card(props) {
-  return (
+  return (  
     <div className="pics">
-      <img src={props.img} alt="img" />
+      <img src={props.coverImg} alt="img" />
+    
       <div className="info">
         <img src={Star} alt="star" className="stars" />
         <span>{props.rating}</span>
@@ -13,11 +15,13 @@ export default function Card(props) {
         <span>{props.country}</span>
       </div>
       <div className="other">
-        <p>{props.title}</p> 
+        <p>{props.title}</p>
       </div>
       <div className="others">
         <p>{props.price}</p>
       </div>
     </div>
+    
   );
+
 }
