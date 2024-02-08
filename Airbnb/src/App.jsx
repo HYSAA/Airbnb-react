@@ -13,7 +13,7 @@ function App() {
  <Card
  key= {item.id}
  className="custom-card"
- img={item.coverImg}   
+ img={item.img}   
  rating = {item.stats.rating}
  reviewCount= {item.stats.reviewCount}
  country={item.country}

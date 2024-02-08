@@ -6,7 +6,7 @@ import data from "./data";
 export default function Card(props) {
   return (  
     <div className="pics">
-      <img src={props.coverImg} alt="img" />
+      <img src={props.img} alt="img" />
     
       <div className="info">
         <img src={Star} alt="star" className="stars" />

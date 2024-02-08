@@ -43,4 +43,3 @@ export default [
     }
 ]
 
-console.log(coverImg)
