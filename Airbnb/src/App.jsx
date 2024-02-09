@@ -31,7 +31,7 @@ function App() {
     <>
     <Navbar></Navbar>
     
-  {testData}
+   <Card></Card>
  
  
 
