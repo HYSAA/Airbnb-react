@@ -5,6 +5,7 @@ import data from "./data";
 
 export default function Card(props) {
   return (  
+    ///
     <div className="pics">
       <img src={props.img} alt="img" />
     
