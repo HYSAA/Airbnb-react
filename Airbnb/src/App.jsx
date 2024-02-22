@@ -18,7 +18,7 @@ function App() {
  reviewCount= {item.stats.reviewCount}
  country={item.country}
  title= {item.title}
- price = {item.price}
+ price = {item.price} 
  />
  )
   })
@@ -31,7 +31,7 @@ function App() {
     <>
     <Navbar></Navbar>
     
-   {testData}
+  {testData}
  
  
 
